@@ -7,7 +7,7 @@ export default {
     },
     {
       name: 'UI Elements',
-      icon: 'Layers',
+      icon: 'Book',
       children: [
         {
           name: 'Buttons',
@@ -36,34 +36,6 @@ export default {
         {
           name: 'Tables',
           url: '/elements/tables',
-        },
-        {
-          name: 'Breadcrumbs',
-          url: '/elements/breadcrumbs',
-        },
-        {
-          name: 'Forms',
-          url: '/elements/forms',
-        },
-        {
-          name: 'Modals',
-          url: '/elements/modals',
-        },
-        {
-          name: 'Loaders',
-          url: '/elements/loaders',
-        },
-        {
-          name: 'Avatars',
-          url: '/elements/avatars',
-        },
-        {
-          name: 'Progress Bars',
-          url: '/elements/progressbars',
-        },
-        {
-          name: 'Pagination',
-          url: '/elements/pagination',
         },
       ],
     },

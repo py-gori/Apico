@@ -16,10 +16,10 @@ class Dashboard extends Component {
         <Row>
           <Col md={6}>
             <div className="home-hero" style={heroStyles}>
-              <h1>Welcome to Vibe.</h1>
+              <h1>Welcome to Apico</h1>
               <p className="text-muted">
-                Discover this UI dashboard framework that will help speed up
-                your next web application project.
+                My API Collection here.
+                To execute each API, go to that page from the sidebar.
               </p>
             </div>
           </Col>

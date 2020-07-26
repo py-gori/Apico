@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Vibe &ndash; React Dashboard Kit</title>
+    <title>Apico</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
