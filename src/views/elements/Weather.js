@@ -25,7 +25,7 @@ class Weather extends Component {
 
         this.Places = [{name: '札幌', id: 2128295}, {name: '東京', id: 1850147},
                         {name: '大阪', id: 1853909}, {name: '沖縄', id: 1894616}]
-        this.OpenWeatherMapKey = "08d55660e2e7b13b07232453941cdab3"
+        this.OpenWeatherMapKey = ""
     }
 
     selectPlace(index) {
