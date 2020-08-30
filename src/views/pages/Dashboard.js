@@ -18,7 +18,7 @@ class Dashboard extends Component {
             <div className="home-hero" style={heroStyles}>
               <h1>Welcome to Apico</h1>
               <p className="text-muted">
-                My API Collection here.
+                My API Collection here!!!!.
                 To execute each API, go to that page from the sidebar.
               </p>
             </div>

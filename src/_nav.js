@@ -6,36 +6,12 @@ export default {
       icon: 'Home',
     },
     {
-      name: 'UI Elements',
+      name: 'API Elements',
       icon: 'Book',
       children: [
         {
-          name: 'Buttons',
+          name: 'Train',
           url: '/elements/buttons',
-        },
-        {
-          name: 'Grid',
-          url: '/elements/grid',
-        },
-        {
-          name: 'Alerts',
-          url: '/elements/alerts',
-        },
-        {
-          name: 'Typography',
-          url: '/elements/typography',
-        },
-        {
-          name: 'Cards',
-          url: '/elements/cards',
-        },
-        {
-          name: 'Tabs',
-          url: '/elements/tabs',
-        },
-        {
-          name: 'Tables',
-          url: '/elements/tables',
         },
       ],
     },
