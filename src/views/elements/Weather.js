@@ -9,14 +9,16 @@ import {
   ButtonGroup,
   ButtonToolbar,
   ButtonDropdown,
+  Dropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
   Progress,
 } from 'reactstrap';
+import PropTypes from 'prop-types';
 import axios from 'axios';
 
-class WeatherPage extends Component {
+class Weather extends Component {
     constructor(props) {
         super(props)
         this.state = { placeName: null, weather: null, temperature: null, loading: false}
@@ -86,14 +88,16 @@ WeatherInformation.propTypes = {
     temperature: PropTypes.number
 }
 
-
 const PlaceSelector = (props) => (
-    <DropdownToggle caret>
-        場所を選択
-    </DropdownToggle>
-    <DropdownMenu value={-1} onChange={(event, index) => props.actionSelect(index)}>
-        {props.places.map((place, ix) => <DropdownItem> key={ix} value={ix} primaryText={place.name} </DropdownItem>)}
-    </DropdownMenu>
+    <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+        <DropdownToggle caret>
+            場所を選択
+        </DropdownToggle>
+        <DropdownMenu>
+            {props.places.map((place, ix) => 
+            <DropdownItem key={ix} value={ix}>{place.name}</DropdownItem>)}
+        </DropdownMenu>
+    </Dropdown>
 )
 
 PlaceSelector.propTypes = {
@@ -101,7 +105,4 @@ PlaceSelector.propTypes = {
     actionSelect: PropTypes.func
 }
 
-ReactDOM.render(
-    <WeatherPage />,
-    document.getElementById('root')
-)
+export default Weather;

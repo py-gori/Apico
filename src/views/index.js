@@ -1,5 +1,6 @@
 import Dashboard from './pages/Dashboard';
-import Buttons from './elements/Buttons';
+import Train from './elements/Train';
+import Weather from './elements/Weather'
 import Alerts from './elements/Alerts';
 import Grid from './elements/Grid';
 import Typography from './elements/Typography';
@@ -30,9 +31,14 @@ const pageList = [
     component: Dashboard,
   },
   {
-    name: 'Buttons',
-    path: '/elements/buttons',
-    component: Buttons,
+    name: 'Train',
+    path: '/elements/train',
+    component: Train,
+  },
+  {
+    name: 'Weather',
+    path: '/elements/weather',
+    component: Weather,
   },
   {
     name: 'Alerts',

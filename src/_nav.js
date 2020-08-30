@@ -11,7 +11,11 @@ export default {
       children: [
         {
           name: 'Train',
-          url: '/elements/buttons',
+          url: '/elements/train',
+        },
+        {
+          name: 'Weather',
+          url: '/elements/weather',
         },
       ],
     },
